@@ -1,0 +1,15 @@
+SIMPLE INTEREST CALCULATION
+#include<stdio.h>
+int main()
+{
+  int si,p,t,r;
+  printf("Enter Principal Amount:");
+  scanf("%d", &p);
+  printf("Enter Time:");
+  scanf("%d", &t);
+  printf("Enter Rate of Interest:");
+  scanf("%d", &r);
+  si=(p*t*r)/100;
+  printf("The Simple Interest is %d", si);
+  return 0;
+}
